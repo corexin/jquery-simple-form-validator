@@ -3,11 +3,11 @@
 	@email Stevenjiang.au@hotmail.com
 	@version 1.0.0 - only support textfield and textArea at the moment.
 	Example:
-	1. Add ":required" as class to input,textarea field, e.g. <input class=":required" />
-	2. Add the template code as follows to your jquery domReady code.
-	(send is submit button id, form1 is form id which needs to be validated)
-	$('#send').bind('click', function(event) {
-		return $("#form1").simpleValidate();
+  1. Include this file in your html head
+	2. Add ":required" as class to input,textarea field, e.g. <input class=":required" />
+	3. Add the template code as follows to your jquery domReady code.
+	$('#submitButtonId').bind('click', function(event) {
+		return $("#formToValidateId").simpleValidate();
 	});
 	Feel free to add more function or modify, please mention my name if you think my code is useful:)
 */
