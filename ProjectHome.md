@@ -1,0 +1,1 @@
+A jquery plugin to validate html form, based on jquery version 1.7.2
